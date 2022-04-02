@@ -230,13 +230,13 @@ padding-right: 0rem !important;
 <nav class="navbar navbar-expand-lg navbar-dark" id="#home">
 <div class="container">
 <a class="navbar-brand" href="#"><img class="img-fluid me-2" width="50px" src="images/infinitytoken-logo.png"></a>
-<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-<div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="navbar-collapse collapse show" id="navbarTogglerDemo02" style="">
 <ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" aria-current="page" href="#home">HOME</a></li>
-<li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li><li class="nav-item"><a class="nav-link" href="#tokenomics">TOKENOMICS</a></li>
+<li class="nav-item text-center"><a class="nav-link" aria-current="page" href="#home">HOME</a></li>
+<li class="nav-item text-center"><a class="nav-link" href="#about">ABOUT</a></li><li class="nav-item text-center"><a class="nav-link" href="#tokenomics">TOKENOMICS</a></li>
 
-<li class="nav-item"><a class="nav-link" href="#roadmap">ROADMAP</a></li><li class="nav-item"><a class="nav-link" href="#roadmap">SWAP</a></li>
+<li class="nav-item text-center"><a class="nav-link" href="#roadmap">ROADMAP</a></li><li class="nav-item text-center"><a class="nav-link" href="#swap">SWAP</a></li>
 
 </ul>
 </div>
@@ -259,7 +259,7 @@ padding-right: 0rem !important;
 </div>
 
 <div class="about-container" id="about">
-<div style="border-top:1px solid #3665B7" class="container py-5 aos-init" data-aos="fade-up">
+<div style="border-top:1px solid #3665B7" class="container py-5 aos-init aos-animate" data-aos="fade-up">
 <div class="text-center"><h2 class="mt-4 mb-4 about-title">ABOUT</h2></div>
 <div class="row mb-5">
 <div class="col-12 text-center">
@@ -298,7 +298,7 @@ padding-right: 0rem !important;
 </div>
 
 <div id="roadmap" class="roadmap-container">
-<div class="container py-5 aos-init" data-aos="fade-up" style="border-top:1px solid #3665B7">
+<div class="container py-5 aos-init aos-animate" data-aos="fade-up" style="border-top:1px solid #3665B7">
 <div class="text-center"><h2 class="mt-4 mb-4 roadmap-title">ROADMAP</h2></div>
 <div class="row mb-4">
 <div class="col-12 col-lg-4 text-center py-3">
@@ -342,12 +342,12 @@ padding-right: 0rem !important;
 </div>
 </div>
 
-<div id="roadmap" class="roadmap-container">
-<div class="container py-5 aos-init" data-aos="fade-up" style="border-top:1px solid #3665B7">
+<div id="swap" class="roadmap-container">
+<div class="container py-5 aos-init aos-animate" data-aos="fade-up" style="border-top:1px solid #3665B7">
 <div class="text-center"><h2 class="mt-4 mb-4 roadmap-title">POOCOIN SWAP</h2></div>
 <div class="row mb-4">
 <div class="col-12">
-<iframe class="d-block mx-auto" src="https://poocoin.app/embed-swap?outputCurrency=0x5A6E8Fafb50B78F97f9FB28CaEfdCD950177F7aB" width="400" height="480"></iframe>
+<iframe class="d-block mx-auto" src="https://poocoin.app/embed-swap?outputCurrency=0x5A6E8Fafb50B78F97f9FB28CaEfdCD950177F7aB" height="480" style="max-width:400px;width:100%;"></iframe>
 
 </div>
 
@@ -409,6 +409,7 @@ padding-right: 0rem !important;
 
 });
 		</script>
+
 
 
 </body></html>
