@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="en">
-<head>
-<title>Home Page | Son Of Dot</title>
+<html lang="en"><head>
+<title>Home Page | Infinity Token</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/uicons-regular-rounded.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 <style type="text/css">
 body{
-color:#1e1e1e;
+    background:#000000;
+color:#ffffff;
 font-family: 'Work Sans', sans-serif;
 font-weight:400;
 font-size:16px;
@@ -25,7 +25,7 @@ outline: 0 !important;
 	
 h1{
 font-weight:700;
-font-size:calc(1.875rem + 2.5vw);
+font-size:3em;;
 letter-spacing:0px;
 }
 
@@ -47,7 +47,7 @@ padding:12px 0;
 }
 	
 .nav-link{
-color:#1e1e1e !important;
+color:#FFFFFF !important;
 font-size:20px;
 letter-spacing:-0.04em;
 }
@@ -62,13 +62,13 @@ font-size:1.25em;
 }
 	
 .btn-primary{
-color: #e6007a;
+color: #3665B7;
 background-color: transparent;
-border-color: #e6007a;
+border-color: #3665B7;
 position: relative;
 z-index: 1;
 overflow: hidden;
-border: solid 1px #e6007a;
+border: solid 1px #3665B7;
 border-radius:2em;
 padding:16px 20px;
 font-weight:700;
@@ -76,18 +76,18 @@ letter-spacing:0px;
 }
 	
 .btn-primary:hover, .btn-primary:focus {
-background-color: #e6007a !important;
+background-color: #3665B7 !important;
 font-color:#FFFFFF !important;
-border: solid 1px #e6007a !important;
+border: solid 1px #3665B7 !important;
 }
 	
 .about-container{
-background:#172026;
+background:#000000;
 color:#ffffff;
 }
 	
 .roadmap-container{
-background:#e6007a;
+background:#000000;
 color:#ffffff;
 }
 	
@@ -169,12 +169,6 @@ font-size:1.25em;
 .hero-container p{
 font-size:1.25em;
 }
-		
-h1{
-font-weight:700;
-font-size:calc(1.7rem + 1.5vw);
-letter-spacing:0px;
-}
 }
 
 @media (min-width: 768px) {
@@ -184,7 +178,13 @@ letter-spacing:0px;
 .hero-container p{
 font-size:1.5em;
 }
-	
+
+    h1{
+font-weight:700;
+font-size:5em;
+letter-spacing:0px;
+}
+    
 .navbar-expand-lg .navbar-nav .nav-link {
 padding-right: 1.125rem;
 padding-left: 1.125rem;	
@@ -197,36 +197,34 @@ padding-right: 0rem !important;
 @media (min-width: 1200px) {}
 
 @media (min-width: 1400px) {
-h1{
-font-weight:700;
-font-size:calc(3.375rem + 2.5vw);
-letter-spacing:0px;
-}
+
 }
 </style>
 </head>
-<body>
+<body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
 
-<nav class="navbar navbar-expand-lg navbar-light" id="#home">
+<nav class="navbar navbar-expand-lg navbar-dark" id="#home">
 <div class="container">
-<a class="navbar-brand" href="#">$SOD<span style="color:#e6007a;">.</span></a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+<a class="navbar-brand" href="#"><img class="img-fluid me-2" width="50px" src="images/infinitytoken-logo.png"></a>
+<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
 <ul class="navbar-nav ms-auto">
 <li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li><li class="nav-item"><a class="nav-link" href="#tokenomics">Tokenomics</a></li>
 <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
-<li class="nav-item"><a class="nav-link" href="#DApps">DApps</a></li>
+
 </ul>
 </div>
 </div>
 </nav>
 
-<div class="container hero-container py-5 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up">
+<div class="container hero-container py-5 d-flex flex-column justify-content-center align-items-center aos-init aos-animate" data-aos="fade-up">
 <div class="row">
 <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-<img width="100%;" src="images/hero-image-2.svg"/>
-<p class="mt-5 mb-5 text-center">The biggest DOT reflection token and the first with manual-claim feature. Simply hold $SOD tokens in your wallet and you'll earn DOT.</p>
+
+<h1 class="text-center mt-4 mt-lg-0">HOLD <span style="color:#3665B7">INFINITY</span>.<br>EARN BUSD.</h1>
+
+<p class="my-4 text-center">Earn $BUSD passively just by holding $INFINITY.</p>
 <div class="d-flex flex-column flex-sm-row mt-2 button-">
 <a type="button" class="btn btn-primary m-2" href="https://pancakeswap.finance/swap?outputCurrency=0x6a5d6bed5aa0d090c43ee470de764acc8c3ba50e" target="_blank">Buy On Pancakeswap</a>
 <a type="button" class="btn btn-primary m-2" href="https://t.me/SonOfDot" target="_blank">Join Our Telegram</a>
@@ -236,31 +234,38 @@ letter-spacing:0px;
 </div>
 
 <div class="about-container" id="about">
-<div class="container py-5" data-aos="fade-up">
+<div style="border-top:1px solid #3665B7" class="container py-5 aos-init" data-aos="fade-up">
 <div class="text-center"><h2 class="mt-4 mb-4 about-title">About</h2></div>
 <div class="row mb-5">
 <div class="col-12 text-center">
-<p>Son Of Dot is a community-driven token that evolutionize the yield-generating contract on the Binance Smart Chain: you get rewarded in DOT instead of tokens. <b>How does it work?</b> It works by using a proxy contract that distributes the Polkadot rewards. You will get airdropped your rewards four times a day without the need to claim them somewhere. Just sit back and watch your DOT bags grow.</p>
+<p>Infinity is a community-driven token built on the Binance Smart Chain that rewards $BUSD instead of tokens. Our mission is to develop a swapping platform with vetting features for ease of access when buying a coin, which allows you to know what you’re buying into with a safety rating, coins can also personally vet for better score, infinistaking is coming up where you will be able to stake your coins for rewards and more undisclosed utility’s are in the works for the future.</p>
 </div>
 </div>
 <div class="text-center"><h2 class="features-title">Tokenomics</h2></div>
 <div class="row mt-4 mb-4">
-<div class="col-12 col-lg-4 mb-4">
-<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
-<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">2% DOT Reflections</span>
-<span class="text-center">2% of every transaction is taken and redistributed to all $SOD holders. Hold $SOD tokens, earn DOT.</span>
+<div class="col-12 col-lg-3 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #3665B7;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">2% BUSD</span>
+<span class="text-center">2% of every transaction is taken and redistributed to all $INFINITY holders. Hold $INFINITY tokens, earn $BUSD.</span>
 </div>
 </div>
-<div class="col-12 col-lg-4 mb-4">
-<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
-<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">9% Marketing Fee</span>
+<div class="col-12 col-lg-3 mb-4">
+<div class="h-100 d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #3665B7;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">8% Marketing</span>
 <span class="text-center">9% of every transaction is taken and will be used for enhancements, operations, and marketing of the project.</span>
 </div>
 </div>
-<div class="col-12 col-lg-4 mb-4">
-<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 h-100 mx-auto" style="border:1px solid #e6007a;border-radius:2em;max-width:520px;">
-<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">1% Liquidity Pool</span>
+
+
+<div class="col-12 col-lg-3 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 h-100 mx-auto" style="border:1px solid #3665B7;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">1% Liquidity</span>
 <span class="text-center">1% of every transaction is transformed into liquidity. It's automatic and helps create a price floor.</span>
+</div>
+</div><div class="col-12 col-lg-3 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 h-100 mx-auto" style="border:1px solid #3665B7;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">2% Developer</span>
+<span class="text-center">2% of every transaction is taken and will be used to for the development of Infinity Token Ecosystem.</span>
 </div>
 </div>
 </div>
@@ -268,7 +273,7 @@ letter-spacing:0px;
 </div>
 
 <div class="roadmap-container" id="roadmap">
-<div class="container py-5" data-aos="fade-up">
+<div style="border-top:1px solid #3665B7" class="container py-5 aos-init" data-aos="fade-up">
 <div class="text-center"><h2 class="mt-4 mb-4 roadmap-title">Roadmap</h2></div>
 <div class="row mb-5">
 <div class="col-12 col-lg-3 text-center py-3">
@@ -319,37 +324,7 @@ letter-spacing:0px;
 </div>
 </div>
 
-<div class="dashboard-container" id="DApps">
-<div class="container py-5" data-aos="fade-up">
-<div class="text-center"><h2 class="mt-4 mb-5 dashboard-title">Decentralized Apps</h2></div>
-<div class="row">
-<div class="col-12 col-md-6 col-lg-6 mb-5">
-<div class="text-center"><h3 class="mb-3" style="font-weight:700;font-size:1.5em;font-weight:500;">$SOD<span style="color:#e6007a;">.</span>Tracker</h3></div>
-<p class="text-center mb-4" style="max-width:720px;">Keep track of how much $DOT you earned so far and when is the next payout from your dashboard.</p>
-<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><img class="img-fluid dashboard-image" src="images/sod-manager-preview-3.png" /><div class="under-development-message d-none">Under Development</div></div>
-</div>
-<div class="col-12 col-md-6 col-lg-6 mb-5">
-<div class="text-center"><h3 class="mb-3" style="font-weight:700;font-size:1.5em;font-weight:500;">$SOD<span style="color:#e6007a;">.</span>Swap</h3></div>
-<p class="text-center mb-4" style="max-width:720px;">Securely swap your tokens without ever having to remove them from the safety of SODWallet.</p>
-<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><img class="img-fluid dashboard-image" src="images/sod-swap-preview.png" /><div class="under-development-message d-none">Under Development</div></div>
-</div>
-<div class="col-12 col-md-6 col-lg-6 mb-5">
-<div class="text-center"><h3 class="mb-3" style="font-weight:700;font-size:1.5em;font-weight:500;">$SOD<span style="color:#e6007a;">.</span>Bridge</h3></div>
-<p class="text-center mb-4" style="max-width:720px;">Bridge, trade and transfer cryptocurrencies across blockchains at the block speed.</p>
-<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><img class="img-fluid dashboard-image" src="images/sod-bridge-preview.png" /><div class="under-development-message d-none">Under Development</div></div>
-</div>
-<div class="col-12 col-md-6 col-lg-6 mb-5">
-<div class="text-center"><h3 class="mb-3" style="font-weight:500;font-size:1.5em;">$SOD<span style="color:#e6007a;">.</span>Wallet</h3></div>
-<p class="text-center mb-4" style="max-width:720px;">Add an additional layer of security to your existing crypto wallet by securing your holdings directly on the blockchain.</p>
-<div class="d-flex flex-column justify-content-center align-items-center" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;border-radius: 12px;max-width:720px;position:relative;overflow:hidden !important;padding:0;border-radius:12px;"><div style="background:url('images/sod-wallet-preview.jpg');background-size: cover;position: relative;width: 100%;padding-top: 60%; /* 16:9 Aspect Ratio */"></div><div class="under-development-message">Under Development</div></div>
-</div>
-</div>
-<div class="d-flex flex-column justify-content-center align-items-center mb-4">
-<div class="text-center mt-4" style="font-weight:400;font-size:40px;">And more DApps to be announced.</div>
-<a type="button" class="btn btn-primary mx-auto d-inline-block mt-5" href="https://t.me/SonOfDot" target="_blank">Join Our Community</a>
-</div>
-</div>
-</div>
+
 	
 <div class="footer-container">
 <div class="container py-5">
@@ -397,5 +372,6 @@ letter-spacing:0px;
 
 });
 		</script>
-</body>
-</html>
+
+
+</body></html>
