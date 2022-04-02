@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en"><head>
+<title>Home Page | God of Cheems</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+<style type="text/css">
+
+    .hero-container h1{
+        font-size:3em;
+    }
+    
+    .hero-img {
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-name: bounce-2;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-2 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-25px); }
+        100% { transform: translateY(0); }
+    }
+    
+    .parallax-section{
+        background:transparent !important;
+        color:#FFFFFF !important;
+    }
+    
+    .parallax{
+ /* The image used */
+  background-image: url("images/parralax-2.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+
+.parallax-2{
+ /* The image used */
+  background-image: url("images/godofcheems-parallax-2.jpg");
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+    
+body{
+color:#FFFFFF;
+font-family: 'Poppins', sans-serif;
+font-weight:400;
+font-size:16px;
+}
+	
+*:focus{
+box-shadow:none !important;
+outline: 0 !important;
+}
+	
+h1{
+font-weight:700;
+font-size:calc(1.875rem + 2.5vw);
+letter-spacing:0px;
+}
+
+.container{
+max-width:1140px;
+padding-left: 16px;
+padding-right: 16px;
+}
+	
+.navbar-brand{
+font-size:1.25em;
+font-weight:500;
+color:#FFFFFF !important;
+letter-spacing:1;
+}
+
+.navbar{
+padding:12px 0;
+}
+	
+.nav-link{
+color:#FFFFFF !important;
+font-size:1em;
+letter-spacing:1;
+}
+	
+.hero-container p{
+font-size:1.25em;
+}
+	
+.btn-primary{
+color: #FFEB3B;
+background-color: transparent;
+border-color: 1px solid #FFEB3B;
+position: relative;
+z-index: 1;
+overflow: hidden;
+border: solid 1px #FFEB3B;
+border-radius:2em;
+padding:16px 20px;
+font-weight:700;
+letter-spacing:0px;
+}
+	
+.btn-primary:hover, .btn-primary:focus {
+background-color: #FFEB3B !important;
+font-color:#FFFFFF !important;
+border: solid 1px #FFEB3B !important;
+}
+	
+.about-container{
+background:#FFFFFF;
+color:#012940;
+}
+	
+.roadmap-container{
+color:#FFFFFF;
+}
+	
+.dashboard-container{
+background:#FFFFFF;
+}
+	
+.footer-container{
+background:#012940;
+color:#FFFFFF;
+}
+	
+h2{
+font-size:2.5em;
+font-weight:700;
+}
+	
+.about-title{
+display:inline-block;
+position:relative;
+z-index:1;
+}
+	
+
+.features-title{
+position:relative;
+z-index:1;
+display:inline-block;
+}
+	
+
+.roadmap-title{
+position:relative;
+z-index:1;
+display:inline-block;
+}
+	
+
+.dashboard-title{
+position:relative;
+z-index:1;
+display:inline-block;
+}
+	
+.under-development-message{
+top: 0;
+left: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.75);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.25em;
+font-weight: 700;
+color:#FFFFFF;
+}
+	
+.roadmap-container ul > li {
+margin-bottom:4px;
+margin-top:4px;
+}	
+	
+.footer-container ul > li {
+display: inline-block;
+zoom:1;
+margin-left:16px;
+margin-right:16px;
+margin-bottom:32px;
+}
+
+.footer-container a {
+color:#FFFFFF;
+font-size:1em;
+}
+
+@media (min-width: 576px){
+.hero-container p{
+font-size:1.25em;
+}
+		
+}
+
+@media (min-width: 768px) {
+    .hero-container h1{
+        font-size:3.5em;
+    }
+}
+
+@media (min-width: 992px) {
+.hero-container p{
+font-size:1.5em;
+}
+
+    .hero-container h1{
+        font-size:4em;
+    }
+    
+.navbar-expand-lg .navbar-nav .nav-link {
+padding-right: 1.125rem;
+padding-left: 1.125rem;	
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child > .nav-link{
+padding-right: 0rem !important;
+}}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {
+h1{
+font-weight:700;
+font-size:calc(3.375rem + 2.5vw);
+letter-spacing:0px;
+}
+}
+</style>
+</head>
+<body class="parallax" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+
+<nav class="navbar navbar-expand-lg navbar-dark" id="#home">
+<div class="container">
+<a class="navbar-brand" href="#"><img class="img-fluid me-2" width="40px" src="images/godofcheems-logo-2.png">God of <span style="color:#FFEB3B">Cheems</span></a>
+<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
+<ul class="navbar-nav ms-auto pt-2 pt-lg-0">
+<li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container hero-container py-5 d-flex flex-column justify-content-center align-items-center aos-init aos-animate" data-aos="fade-up">
+<div class="row">
+    <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center order-sm-1 order-lg-2">
+
+<img class="img-fluid hero-img" width="542px" src="images/godofcheems-hero-2.png">
+</div>
+<div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center order-sm-2 order-lg-1">
+
+<h1 class="text-center mt-4 mt-lg-0">The God Of All<br><span style="color:#FFEB3B">Cheems</span></h1><p class="mt-4 text-center"><b>The biggest</b> $DOGE reflection token and the first with manual-claim feature. Simply hold $GOC tokens in your wallet and you'll earn $DOGE.</p>
+<div class="d-flex flex-column flex-sm-row mt-2 button-">
+<a type="button" class="btn btn-primary m-2" href="https://pancakeswap.finance/swap?outputCurrency=0x9fafa7ff34f4a7a7819bebda20a096d9e9a9f6f2" target="_blank">Buy On Pancakeswap</a>
+<a type="button" class="btn btn-primary m-2" href="https://t.me/godofcheems" target="_blank">Join Our Telegram</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="about-container" id="about">
+<div class="container py-5" data-aos="fade-up">
+<div class="text-center"><h2 class="mt-4 mb-4 about-title">About</h2></div>
+<div class="row mb-5">
+<div class="col-12 text-center">
+<p>God of Cheems is a community-driven token built on the Binance Smart Chain that rewards $DOGE instead of tokens.<br><br><b>How does it work?</b> It works by using a proxy contract that distributes the Dogecoin rewards. Just sit back and watch your $DOGE rewards grow.<br><br>The project is led by an experienced European team who have vast knowledge of what it takes to run a serious project.</p>
+</div>
+</div>
+<div class="text-center"><h2 class="features-title">Features</h2></div>
+<div class="row mt-4 mb-4">
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #FFEB3B;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">3% $DOGE Rewards</span>
+<span class="text-center">3% of every transaction is taken and redistributed to all $GOC holders. Hold $GOC tokens, earn $DOGE.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #FFEB3B;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">7% Marketing Fee</span>
+<span class="text-center">7% of every transaction is taken and will be used for enhancements, operations, and marketing of the project.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 h-100 mx-auto" style="border:1px solid #FFEB3B;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">5% Liquidity Pool</span>
+<span class="text-center">5% of every transaction is transformed into liquidity. It's automatic and helps create a price floor.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #FFEB3B;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">Manual Claim Rewards</span>
+<span class="text-center">You can claim your $DOGE rewards by using a proxy contract that distributes the Dogecoin rewards.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4 mb-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #FFEB3B;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">1.5% Max Transaction</span>
+<span class="text-center">Sells are restricted to less than 1.5% of the total supply to reduce swing-trading and break whales' control.</span>
+</div>
+</div>
+<div class="col-12 col-lg-4">
+<div class="d-flex flex-column justify-content-center align-items-center px-3 py-5 mx-auto" style="border:1px solid #FFEB3B;border-radius:2em;max-width:520px;">
+<span class="text-center mb-2" style="font-size:1.5em;font-weight:700;">Secured By Design</span>
+<span class="text-center">Initial Liquidity Provided will be locked. This ensures that the project will not be rug-pulled.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="roadmap-container" id="roadmap">
+<div class="container py-5" data-aos="fade-up">
+<div class="text-center"><h2 class="mt-4 mb-4 roadmap-title">Roadmap</h2></div>
+<div class="row mb-1">
+<div class="col-12 col-lg-3 text-center py-3">
+<h4><b>Phase 1</b></h4>
+<ul class="list-unstyled text-small text-center mt-3">
+<li>Twitter and Telegram Page <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFEB3B" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/></svg></li>
+<li>Pancakeswap Fair Launch <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFEB3B" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/></svg></li>
+<li>Marketing Campaign <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFEB3B" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/></svg></li>
+<li>Team Expansion <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFEB3B" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/></svg></li>
+<li>1% Buy Tax Promotion <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFEB3B" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/></svg></li>
+<li>LP Lock Extension <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFEB3B" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/></svg></li>
+<li>Shilling Competition <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFEB3B" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/></svg></li>
+<li>Website 1.0 <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="#FFEB3B" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.25 8.891l-1.421-1.409-6.105 6.218-3.078-2.937-1.396 1.436 4.5 4.319 7.5-7.627z"/></svg></li>
+</ul>
+</div>
+<div class="col-12 col-lg-3 text-center py-3">
+<h4><b>Phase 2</b></h4>
+<ul class="list-unstyled text-small text-center mt-3">
+<li>Contract Audit</li>
+<li>Heavy Marketing</li>
+<li>Whitepaper 1.0</li>
+<li>1000+ Telegram Members</li>
+<li>500+ Holders</li>
+<li>Rewards Dashboard</li>
+<li>$250K+ Market Cap</li>
+<li>Coingecko Listing</li>
+</ul>
+</div>
+<div class="col-12 col-lg-3 text-center py-3">
+<h4><b>Phase 3</b></h4>
+<ul class="list-unstyled text-small text-center mt-3">
+<li>Ongoing Aggressive Marketing</li>
+<li>Staking Partnership</li>
+<li>1000+ Holders</li>
+<li>$1M+ Market Cap</li>
+<li>Coinmarketcap Listing</li>
+<li>Website 2.0</li>
+<li>Weibo Marketing</li>
+</ul>
+</div>
+<div class="col-12 col-lg-3 text-center py-3">
+<h4><b>Phase 4</b></h4>
+<ul class="list-unstyled text-small text-center mt-3">
+<li>More Exchange Listings</li>
+<li>Utility - God of Cheems NFT Marketplace</li>
+<li>More To Be Announced</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+	
+<div class="footer-container">
+<div class="container py-5">
+<div class="row mt-4">
+<div class="col-12 d-flex flex-column justify-content-center align-items-center">
+<ul class="list-unstyled text-small text-center">
+<li><a class="text-decoration-none mb-1" href="https://t.me/godofcheems" target="_blank" rel="nofollow"><svg class="icon-embed d-block mx-auto mb-2" width="35" height="35" viewBox="0 0 286 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M112.042 159.045L218.033 237.717C230.129 244.422 238.856 240.95 241.869 226.437L285.013 22.18C289.429 4.38847 278.262 -3.68377 266.69 1.59423L13.3525 99.7361C-3.93993 106.705 -3.83692 116.398 10.2009 120.716L75.2131 141.104L225.723 45.7053C232.829 41.3763 239.351 43.7016 233.999 48.4753" fill="CurrentColor"></path>
+</svg>Telegram</a></li>
+<li><a class="text-decoration-none" href="https://discord.com/invite/godofcheems" target="_blank" rel="nofollow"><img class="d-block mx-auto mb-2" height="35px" width="35px" src="https://uploads-ssl.webflow.com/60c7783699e1051d74062f79/60e4e7eb59081bbbe18fd37b_Discord-Logo-White%20(1).png" loading="lazy" alt="">Discord</a></li>
+<li><a class="text-decoration-none" href="https://www.reddit.com/r/godofcheems" target="_blank" rel="nofollow"><svg class="d-block mx-auto mb-2" width="35" height="35" viewBox="0 0 431 385" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M431 195.591C431.008 189.396 429.796 183.26 427.431 177.534C425.066 171.809 421.596 166.607 417.219 162.226C412.842 157.846 407.645 154.372 401.924 152.006C396.204 149.639 390.074 148.425 383.884 148.433C371.142 148.433 359.552 153.455 351.057 161.575C318.619 138.382 274.203 123.309 224.768 121.378L246.394 20.1024L316.683 35.1755C317.089 43.9547 320.911 52.2263 327.331 58.2217C333.752 64.2171 342.261 67.4604 351.039 67.2581C359.818 67.0557 368.169 63.4238 374.307 57.1389C380.444 50.854 383.882 42.415 383.884 33.6264C383.878 24.7099 380.337 16.1602 374.037 9.85528C367.738 3.55035 359.196 0.00572613 350.287 0C343.997 0.0165462 337.838 1.80094 332.511 5.14992C327.185 8.49891 322.905 13.2778 320.16 18.9423L241.765 2.32006C239.447 1.93098 237.129 2.32006 235.581 3.48009C233.652 4.64012 232.493 6.57109 232.111 8.89115L208.161 121.76C157.956 123.309 112.769 138.382 79.9428 161.965C71.1021 153.513 59.3419 148.805 47.1162 148.822C40.9265 148.814 34.7958 150.028 29.0756 152.395C23.3553 154.762 18.1579 158.235 13.781 162.616C9.40421 166.996 5.93398 172.198 3.56919 177.924C1.2044 183.649 -0.00848448 189.785 4.46725e-05 195.98C4.46725e-05 215.304 11.5829 231.537 27.809 238.887C27.0211 243.613 26.6334 248.397 26.65 253.189C26.65 325.853 111.229 385 215.504 385C319.778 385 404.357 326.242 404.357 253.189C404.357 248.549 403.968 243.52 403.198 238.887C411.489 235.094 418.517 228.997 423.445 221.321C428.374 213.646 430.996 204.715 431 195.591V195.591ZM107.363 229.217C107.369 220.3 110.911 211.749 117.212 205.444C123.513 199.139 132.057 195.595 140.967 195.591C159.504 195.591 174.564 210.664 174.564 229.217C174.564 247.771 159.504 262.851 140.967 262.851C122.423 263.233 107.363 247.771 107.363 229.217V229.217ZM295.446 318.511C272.273 341.704 228.246 343.253 215.504 343.253C202.373 343.253 158.345 341.315 135.554 318.511C134.73 317.706 134.075 316.743 133.628 315.681C133.181 314.619 132.951 313.478 132.951 312.325C132.951 311.173 133.181 310.032 133.628 308.969C134.075 307.907 134.73 306.945 135.554 306.14C136.358 305.315 137.32 304.66 138.381 304.212C139.442 303.765 140.582 303.535 141.734 303.535C142.885 303.535 144.025 303.765 145.087 304.212C146.148 304.66 147.109 305.315 147.914 306.14C162.592 320.831 193.49 325.853 215.504 325.853C237.518 325.853 268.796 320.831 283.086 306.14C283.891 305.315 284.852 304.66 285.913 304.212C286.975 303.765 288.115 303.535 289.266 303.535C290.418 303.535 291.558 303.765 292.619 304.212C293.681 304.66 294.642 305.315 295.446 306.14C296.94 307.854 297.763 310.051 297.763 312.325C297.763 314.6 296.94 316.797 295.446 318.511ZM289.263 263.233C270.726 263.233 255.666 248.16 255.666 229.607C255.666 211.053 270.726 195.98 289.263 195.98C298.173 195.984 306.717 199.528 313.018 205.833C319.318 212.138 322.861 220.689 322.867 229.607C322.867 247.771 307.807 263.233 289.263 263.233Z" fill="CurrentColor"></path>
+</svg>Reddit</a></li>
+<li><a class="text-decoration-none" href="https://instagram.com/godofcheems" target="_blank" rel="nofollow"><svg class="icon-embed d-block mx-auto mb-2" width="35" height="35" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.8353 0C7.5637 0 0 7.5637 0 16.8353V41.1647C0 50.4363 7.5637 58 16.8353 58H41.1647C50.4363 58 58 50.4363 58 41.1647V16.8353C58 7.5637 50.4363 0 41.1647 0H16.8353ZM16.8353 4.46152H41.1646C48.0225 4.46152 53.5384 9.96874 53.5384 16.8353V41.1646C53.5384 48.0225 48.0312 53.5384 41.1646 53.5384H16.8353C9.97739 53.5384 4.46146 48.0312 4.46146 41.1646V16.8353C4.46146 9.97745 9.96867 4.46152 16.8353 4.46152ZM45.7308 8.92305C43.8834 8.92305 42.3846 10.4218 42.3846 12.2692C42.3846 14.1166 43.8834 15.6154 45.7308 15.6154C47.5781 15.6154 49.0769 14.1166 49.0769 12.2692C49.0769 10.4218 47.5781 8.92305 45.7308 8.92305ZM29 13.3846C20.3994 13.3846 13.3846 20.3994 13.3846 29C13.3846 37.6007 20.3994 44.6154 29 44.6154C37.6007 44.6154 44.6154 37.6007 44.6154 29C44.6154 20.3994 37.6007 13.3846 29 13.3846ZM28.9999 17.8462C35.1868 17.8462 40.1538 22.8131 40.1538 29C40.1538 35.1869 35.1868 40.1539 28.9999 40.1539C22.813 40.1539 17.8461 35.1869 17.8461 29C17.8461 22.8131 22.813 17.8462 28.9999 17.8462Z" fill="currentColor"></path>
+</svg>Instagram</a></li>
+
+<li><a class="text-decoration-none" href="https://twitter.com/godofcheems" target="_blank" rel="nofollow"><svg class="icon-embed d-block mx-auto mb-2" width="35" height="35" viewBox="0 0 298 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M93.7188 242.187C206.179 242.187 267.675 149.019 267.675 68.2308C267.675 65.5845 267.621 62.9501 267.502 60.3277C279.44 51.6975 289.817 40.9277 298 28.6678C287.045 33.5372 275.256 36.8153 262.889 38.2934C275.513 30.7241 285.204 18.7503 289.775 4.47595C277.962 11.479 264.88 16.5689 250.951 19.3165C239.794 7.43217 223.911 0 206.322 0C172.559 0 145.178 27.3805 145.178 61.1323C145.178 65.9302 145.715 70.5969 146.764 75.0729C95.9481 72.516 50.89 48.1871 20.7381 11.193C15.4873 20.2284 12.4596 30.7241 12.4596 41.923C12.4596 63.1349 23.2532 81.8614 39.6672 92.816C29.6365 92.5061 20.2136 89.7525 11.9768 85.1693C11.9678 85.4258 11.9678 85.6759 11.9678 85.95C11.9678 115.56 33.0426 140.282 61.0191 145.884C55.8815 147.285 50.4758 148.036 44.8972 148.036C40.9635 148.036 37.1312 147.649 33.4061 146.933C41.19 171.227 63.7607 188.904 90.5214 189.399C69.5956 205.801 43.2343 215.569 14.5843 215.569C9.65531 215.569 4.78593 215.289 0 214.723C27.0587 232.067 59.1894 242.187 93.7219 242.187" fill="CurrentColor"></path>
+</svg>Twitter</a></li>
+</ul>
+</div>
+</div>
+<div class="row mt-4">
+<div class="col"><p class="text-center m-0">Copyright © 2021 | All Rights Reserved</p></div>
+</div>
+</div>
+</div>
+<script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+		AOS.init();
+		AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 1000, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+		</script>
